@@ -1,0 +1,236 @@
+html {
+    background-color: #FCFCFC;
+    color: #323132;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    background-color: #FFC900;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.founder-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.founder-div {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    width: 60%;
+}
+
+.founder-div .founder-info {
+    margin: auto;
+    padding: 0 2em;
+    text-align: center;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.founder-div #founder-pic {
+    margin: auto;
+    height: 200px;
+    width: auto;
+}
+
+.founder-extra {
+    padding: 10px;
+    width: 60%;
+    margin: 30px auto;
+}
+
+.founder-extra p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.water-crisis {
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.water-crisis span {
+    background-color: #FFC900;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#water-faucet {
+    width: 99%;
+    height: auto;
+}
+
+.approach {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.approach .approach-title {
+    width: 50%;
+    margin: auto 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.approach .approach-title img {
+    width: 60%;
+    height: auto;
+    align-items: center;
+}
+
+.approach .approach-title h3 {
+    text-align: center;
+}
+
+.approach .approach-main h4 {
+    text-align: center;
+    margin: auto;
+}
+
+.approach .approach-main {
+    width: 60%;
+    margin: auto 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.approach .approach-row1 {
+    background-color: #FFC900;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.approach .approach-row2 {
+    background-color: #FFC900;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.approach .approach-row3 {
+    background-color: #FFC900;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.specific-methods {
+    display: flex;
+}
+
+.specific-methods p {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.cards {
+    height: 250px;
+    width: 230px;
+    margin: 40px 20px 20px 20px;
+    box-shadow: 3px 3px 20px black;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.cards .methods-desc h4 {
+    font-size: 14.5px;
+    font-weight: bold;
+}
+
+img {
+    height: 90px;
+    width: 100px;
+    border-radius: 3px;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.methods-desc {
+    height: 110px;
+    width: 190px;
+    padding: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #FFC900;
+    color: #323132;
+    left: 0px;
+    bottom: -30px;
+    transition: all ease 0.5s;
+}
+
+.cards:hover {
+    cursor: pointer;
+}
+
+.cards:hover .methods-desc {
+    height: 260px;
+    width: 230px;
+    padding: 5px;
+    position: relative;
+    background-color: #013365;
+    color: #FFFFFF;
+    opacity: 0.95;
+    left: 0px;
+    bottom: 120px;
+}
+
+.cards:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.cards:hover img {
+    transform: scale(1.1);
+}
+
+.specific-methods{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.cards img{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
